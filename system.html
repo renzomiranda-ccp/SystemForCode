@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System for Code | Catálogo de Serviços Web</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link class="logosc" rel="icon" type="image/png" sizes="32x32" href="logoSystem.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .glass-card { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px); border: 1px solid rgba(229, 231, 235, 0.5); }
+        .gradient-text { background: linear-gradient(90deg, #111827, #4b5563); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .price-tag { background: #111827; color: white; padding: 4px 12px; border-radius: 999px; font-weight: 600; }
+        .logosc{border-radius: 10vh;}
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900 leading-relaxed">
+
+    <!-- Header / Hero -->
+    <header class="py-16 px-6 text-center bg-white border-b border-gray-100">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-5xl font-bold gradient-text mb-4 uppercase tracking-tighter">System for Code</h1>
+            <p class="text-xl text-gray-500 font-light italic">Catálogo de Serviços Web 2026</p>
+            <div class="mt-8 flex justify-center space-x-4">
+                <span class="px-3 py-1 bg-gray-100 rounded text-xs font-semibold tracking-widest uppercase">React</span>
+                <span class="px-3 py-1 bg-gray-100 rounded text-xs font-semibold tracking-widest uppercase">Next.js</span>
+                <span class="px-3 py-1 bg-gray-100 rounded text-xs font-semibold tracking-widest uppercase">Tailwind CSS</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Quem Somos -->
+    <section class="max-w-5xl mx-auto py-20 px-6">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <h2 class="text-3xl font-bold mb-6 border-l-4 border-gray-900 pl-4">Quem Somos</h2>
+                <p class="text-gray-600 mb-6">A <strong>System for Code</strong> é uma iniciativa criada por estudantes de Ciência da Computação focada no desenvolvimento de sites modernos, rápidos e profissionais para empresas, negócios locais e marcas que desejam fortalecer sua presença digital.</p>
+                <div class="grid grid-cols-2 gap-4 text-sm font-medium">
+                    <div class="flex items-center">✓ Design Profissional</div>
+                    <div class="flex items-center">✓ Alta Performance</div>
+                    <div class="flex items-center">✓ Responsividade</div>
+                    <div class="flex items-center">✓ Suporte Próximo</div>
+                </div>
+            </div>
+            <div class="bg-gray-900 p-8 rounded-2xl shadow-2xl text-white">
+                <h3 class="text-xl font-semibold mb-4 text-blue-400">Objetivo Principal</h3>
+                <p class="font-light opacity-90 leading-relaxed">
+                    Entregar não apenas um site, mas uma ferramenta de conversão e autoridade digital, utilizando o que há de mais moderno na engenharia de software atual.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nossos Serviços -->
+    <section class="bg-white py-20 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-16">Nossos Serviços</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- Serviço 1 -->
+                <div class="glass-card p-6 rounded-xl flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-bold text-lg mb-2">1. Landing Page</h3>
+                        <p class="text-xs text-gray-500 mb-4 uppercase tracking-wider font-semibold">Ideal para: Autônomos, Academias, Restaurantes</p>
+                        <ul class="text-sm space-y-2 mb-6">
+                            <li>• Página moderna</li>
+                            <li>• Integração WhatsApp</li>
+                            <li>• SEO básico</li>
+                            <li>• Foco em Conversão</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="text-xs text-gray-400 mb-1">A partir de</div>
+                        <div class="text-2xl font-bold">R$ 790</div>
+                    </div>
+                </div>
+
+                <!-- Serviço 2 -->
+                <div class="glass-card p-6 rounded-xl flex flex-col justify-between border-t-4 border-gray-900">
+                    <div>
+                        <h3 class="font-bold text-lg mb-2">2. Site Institucional</h3>
+                        <p class="text-xs text-gray-500 mb-4 uppercase tracking-wider font-semibold">Ideal para: Empresas e Presença Digital</p>
+                        <ul class="text-sm space-y-2 mb-6">
+                            <li>• Home, Sobre, Serviços</li>
+                            <li>• Design personalizado</li>
+                            <li>• Blog estruturado</li>
+                            <li>• Site responsivo</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="text-xs text-gray-400 mb-1">A partir de</div>
+                        <div class="text-2xl font-bold">R$ 2.490</div>
+                    </div>
+                </div>
+
+                <!-- Serviço 3 -->
+                <div class="glass-card p-6 rounded-xl flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-bold text-lg mb-2">3. Site Premium</h3>
+                        <p class="text-xs text-gray-500 mb-4 uppercase tracking-wider font-semibold">Ideal para: Experiência Exclusiva</p>
+                        <ul class="text-sm space-y-2 mb-6">
+                            <li>• Animações Modernas</li>
+                            <li>• Painel Administrativo</li>
+                            <li>• SEO Avançado</li>
+                            <li>• Performance Otimizada</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="text-xs text-gray-400 mb-1">A partir de</div>
+                        <div class="text-2xl font-bold">R$ 4.990</div>
+                    </div>
+                </div>
+
+                <!-- Serviço 4 -->
+                <div class="glass-card p-6 rounded-xl flex flex-col justify-between">
+                    <div>
+                        <h3 class="font-bold text-lg mb-2">4. Loja / Catálogo</h3>
+                        <p class="text-xs text-gray-500 mb-4 uppercase tracking-wider font-semibold">Ideal para: Vendas Online</p>
+                        <ul class="text-sm space-y-2 mb-6">
+                            <li>• Catálogo de produtos</li>
+                            <li>• Carrinho básico</li>
+                            <li>• Gestão de produtos</li>
+                            <li>• Integração Comercial</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <div class="text-xs text-gray-400 mb-1">A partir de</div>
+                        <div class="text-2xl font-bold">R$ 3.990</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Manutenção -->
+    <section class="py-20 px-6 max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-4">Planos de Manutenção</h2>
+        <p class="text-center text-gray-500 mb-12">Garanta que sua estrutura continue rápida e segura.</p>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white border p-8 rounded-2xl text-center">
+                <h4 class="text-xl font-bold mb-4 uppercase tracking-widest text-gray-400">Start</h4>
+                <div class="text-4xl font-bold mb-6">R$ 97<span class="text-lg text-gray-400">/mês</span></div>
+                <ul class="text-sm text-gray-600 space-y-3 mb-8 text-left">
+                    <li>• Hospedagem Inclusa</li>
+                    <li>• Backup & Monitoramento</li>
+                    <li>• Suporte Básico</li>
+                </ul>
+            </div>
+            <div class="bg-gray-900 border p-8 rounded-2xl text-center text-white transform scale-105 shadow-2xl">
+                <h4 class="text-xl font-bold mb-4 uppercase tracking-widest text-blue-400">Pro</h4>
+                <div class="text-4xl font-bold mb-6 text-white">R$ 197<span class="text-lg text-gray-500">/mês</span></div>
+                <ul class="text-sm space-y-3 mb-8 text-left opacity-90">
+                    <li>• Tudo do Start</li>
+                    <li>• 2 Alterações Mensais</li>
+                    <li>• Atualizações Técnicas</li>
+                    <li>• Suporte Prioritário</li>
+                </ul>
+            </div>
+            <div class="bg-white border p-8 rounded-2xl text-center">
+                <h4 class="text-xl font-bold mb-4 uppercase tracking-widest text-gray-400">Business</h4>
+                <div class="text-4xl font-bold mb-6">R$ 397<span class="text-lg text-gray-400">/mês</span></div>
+                <ul class="text-sm text-gray-600 space-y-3 mb-8 text-left">
+                    <li>• Alterações Frequentes</li>
+                    <li>• SEO Contínuo</li>
+                    <li>• Relatórios Mensais</li>
+                    <li>• Prioridade Máxima</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prazos e Extras -->
+    <section class="bg-gray-100 py-20 px-6">
+        <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12">
+            <div>
+                <h3 class="text-2xl font-bold mb-6 uppercase">Prazos Médios</h3>
+                <table class="w-full text-left text-sm">
+                    <tr class="border-b border-gray-300"><td class="py-3 font-semibold">Landing Page</td><td class="py-3 text-right">3–7 dias</td></tr>
+                    <tr class="border-b border-gray-300"><td class="py-3 font-semibold">Site Institucional</td><td class="py-3 text-right">7–15 dias</td></tr>
+                    <tr class="border-b border-gray-300"><td class="py-3 font-semibold">Site Premium</td><td class="py-3 text-right">15–30 dias</td></tr>
+                    <tr><td class="py-3 font-semibold">Loja Virtual</td><td class="py-3 text-right">15–30 dias</td></tr>
+                </table>
+            </div>
+            <div>
+                <h3 class="text-2xl font-bold mb-6 uppercase">Serviços Extras</h3>
+                <table class="w-full text-left text-sm">
+                    <tr class="border-b border-gray-300"><td class="py-3 font-semibold">Página Extra</td><td class="py-3 text-right font-bold">R$ 250</td></tr>
+                    <tr class="border-b border-gray-300"><td class="py-3 font-semibold">SEO Avançado</td><td class="py-3 text-right font-bold">R$ 600</td></tr>
+                    <tr class="border-b border-gray-300"><td class="py-3 font-semibold">Blog Completo</td><td class="py-3 text-right font-bold">R$ 500</td></tr>
+                    <tr class="border-b border-gray-300"><td class="py-3 font-semibold">Integrações/API</td><td class="py-3 text-right font-bold">Sob orçamento</td></tr>
+                    <tr class="border-b border-gray-300"><td class="py-3 font-semibold">Área Administrativa</td><td class="py-3 text-right font-bold">Sob orçamento</td></tr>
+                    <tr><td class="py-3 font-semibold">ID Visual Básica</td><td class="py-3 text-right font-bold">R$ 400</td></tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <footer class="bg-white py-16 px-6 border-t border-gray-200">
+        <div class="max-w-5xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4 gradient-text">System for Code</h2>
+            <p class="text-gray-500 mb-8 max-w-lg mx-auto">Prontos para elevar o nível digital da sua marca com tecnologias de ponta.</p>
+            
+            <div class="space-y-2 mb-10 text-sm font-medium">
+                <div>📧 systemforcode@hotmail.com</div>
+                <div><a href="https://wa.me/19999998765">📱 WhatsApp Comercial - (19)99999-8765</a></div>
+                <div>🌐 Instagram da System for Code</div>
+            </div>
+
+            <div class="bg-gray-50 p-6 rounded-lg text-xs text-gray-400 text-left max-w-2xl mx-auto inline-block">
+                <p><strong>Condições:</strong> 50% para início e 50% na entrega. Valores base; complexidade adicional sob consulta. Domínio/Hospedagem não inclusos nos valores de desenvolvimento (inclusos apenas nos planos de manutenção).</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
